@@ -1,0 +1,25 @@
+/*
+ * ex5.c
+ *
+ *  Created on: Aug 14, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	int arr[5],number;
+
+	printf("Enter no of elements : ");
+	fflush(stdout);
+	scanf("%d",&number);
+
+
+
+
+
+
+}
+
+

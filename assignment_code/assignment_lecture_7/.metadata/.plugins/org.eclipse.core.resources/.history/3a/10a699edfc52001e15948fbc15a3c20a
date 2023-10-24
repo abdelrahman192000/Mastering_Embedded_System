@@ -1,0 +1,22 @@
+/*
+ * ex_1.c
+ *
+ *  Created on: Sep 14, 2023
+ *      Author: usedn
+ */
+
+#include <stdio.h>
+int main (void)
+{
+	int x;
+	char c;
+	printf("enter number \n");
+	fflush(stdout);
+	scanf("%d",&x);
+	printf("%d",x);
+	scanf("%c",c);
+
+
+}
+
+

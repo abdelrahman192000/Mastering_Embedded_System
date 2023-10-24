@@ -1,0 +1,24 @@
+/*
+ * ex4.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	float number ;
+	printf("Enter a number:");
+	scanf("%d",number);
+	if (number>0)
+		printf("%d is positive.");
+	else if (number==0)
+		printf("you entered zero.");
+	else
+		printf("%d is negative.");
+
+
+}

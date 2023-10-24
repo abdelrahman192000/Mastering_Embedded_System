@@ -1,0 +1,19 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	int integer=0;
+	scanf("Enter a integer:%d",&integer);
+	printf("You entered:%d",integer);
+
+
+}
+
+

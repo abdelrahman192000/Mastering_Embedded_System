@@ -1,0 +1,559 @@
+17:36:12 **** Rebuild of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX1.exe ex1.o 
+Info: Nothing to build for EX1
+17:38:57 **** Rebuild of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX1.exe ex1.o 
+17:39:19 **** Incremental Build of configuration Debug for project EX1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX1.exe ex1.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX1
+17:43:10 **** Rebuild of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'mian':
+..\ex2.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+gcc -o EX2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX1
+17:43:15 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX1
+17:44:21 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX1
+17:44:47 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX1
+17:45:38 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX2
+Info: Nothing to build for EX1
+17:46:06 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:46:15 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX1
+17:46:28 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX1
+17:46:38 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:48:03 **** Rebuild of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:49:57 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:31: warning: unused variable 'result' [-Wunused-variable]
+   13 |         int number_1,number_2,result;
+      |                               ^~~~~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:50:46 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX3
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+17:52:17 **** Rebuild of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+17:53:06 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+17:53:07 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:16:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   16 |         scanf("%d %d",&number_1,&number_2);
+      |                ~^     ~~~~~~~~~
+      |                 |     |
+      |                 int * float *
+      |                %e
+..\ex4.c:16:20: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+   16 |         scanf("%d %d",&number_1,&number_2);
+      |                   ~^            ~~~~~~~~~
+      |                    |            |
+      |                    int *        float *
+      |                   %e
+..\ex4.c:18:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   18 |         printf("Sum: %d",result);
+      |                      ~^  ~~~~~~
+      |                       |  |
+      |                       |  double
+      |                       int
+      |                      %f
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+17:53:18 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:54:47 **** Rebuild of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:55:17 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:13:14: warning: unused variable 'character' [-Wunused-variable]
+   13 |         char character;
+      |              ^~~~~~~~~
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:55:32 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:13:14: warning: unused variable 'character' [-Wunused-variable]
+   13 |         char character;
+      |              ^~~~~~~~~
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:56:03 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:15:9: warning: implicit declaration of function 'ffush'; did you mean 'fflush'? [-Wimplicit-function-declaration]
+   15 |         ffush(stdout);
+      |         ^~~~~
+      |         fflush
+..\ex5.c:13:14: warning: unused variable 'character' [-Wunused-variable]
+   13 |         char character;
+      |              ^~~~~~~~~
+gcc -o EX5.exe ex5.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ex5.o: in function `main':
+F:\embedded\Mastering_Embedded_System\assignment\assignment_code\assignment_lecture_3\home_work-1\EX5\Debug/../ex5.c:15: undefined reference to `ffush'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:56:04 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:15:9: warning: implicit declaration of function 'ffush'; did you mean 'fflush'? [-Wimplicit-function-declaration]
+   15 |         ffush(stdout);
+      |         ^~~~~
+      |         fflush
+..\ex5.c:17:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   17 |         printf("")
+      |                ^~
+..\ex5.c:17:19: error: expected ';' before '}' token
+   17 |         printf("")
+      |                   ^
+      |                   ;
+   18 | 
+   19 | }
+      | ~                  
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:56:21 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:17:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   17 |         printf("")
+      |                ^~
+..\ex5.c:17:19: error: expected ';' before '}' token
+   17 |         printf("")
+      |                   ^
+      |                   ;
+   18 | 
+   19 | }
+      | ~                  
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:56:50 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+17:57:02 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:17:19 **** Rebuild of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:19:09 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+..\ex6.c: In function 'main':
+..\ex6.c:13:33: warning: unused variable 'temp' [-Wunused-variable]
+   13 |         float number_a,number_b,temp;
+      |                                 ^~~~
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:20:32 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+..\ex6.c: In function 'main':
+..\ex6.c:25:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   25 |         printf("After swapping, value of a = %d\n",number_a);
+      |                                              ~^    ~~~~~~~~
+      |                                               |    |
+      |                                               int  double
+      |                                              %f
+..\ex6.c:26:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   26 |         printf("After swapping, value of b = %d",number_b);
+      |                                              ~^  ~~~~~~~~
+      |                                               |  |
+      |                                               |  double
+      |                                               int
+      |                                              %f
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:20:39 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+..\ex6.c: In function 'main':
+..\ex6.c:25:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   25 |         printf("After swapping, value of a = %d\n",number_a);
+      |                                              ~^    ~~~~~~~~
+      |                                               |    |
+      |                                               int  double
+      |                                              %f
+..\ex6.c:26:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   26 |         printf("After swapping, value of b = %d",number_b);
+      |                                              ~^  ~~~~~~~~
+      |                                               |  |
+      |                                               |  double
+      |                                               int
+      |                                              %f
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:20:47 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX6
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:21:06 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX6
+Info: Nothing to build for EX6
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+18:21:59 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+gcc -o EX6.exe ex6.o 
+Info: Nothing to build for EX6
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:23:54 **** Rebuild of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:36:16 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+..\ex7.c: In function 'main':
+..\ex7.c:15:9: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   15 |         print("enter first number:");
+      |         ^~~~~
+      |         printf
+..\ex7.c:17:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   17 |         scanf("%d",num_1);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:13:19: warning: unused variable 'num_2' [-Wunused-variable]
+   13 |         int num_1,num_2;
+      |                   ^~~~~
+..\ex7.c:17:9: warning: 'num_1' is used uninitialized [-Wuninitialized]
+   17 |         scanf("%d",num_1);
+      |         ^~~~~~~~~~~~~~~~~
+gcc -o EX7.exe ex7.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ex7.o: in function `main':
+F:\embedded\Mastering_Embedded_System\assignment\assignment_code\assignment_lecture_3\home_work-1\EX7\Debug/../ex7.c:15: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:36:32 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+..\ex7.c: In function 'main':
+..\ex7.c:17:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   17 |         scanf("%d",num_1);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:13:19: warning: unused variable 'num_2' [-Wunused-variable]
+   13 |         int num_1,num_2;
+      |                   ^~~~~
+..\ex7.c:17:9: warning: 'num_1' is used uninitialized [-Wuninitialized]
+   17 |         scanf("%d",num_1);
+      |         ^~~~~~~~~~~~~~~~~
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:37:23 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+..\ex7.c: In function 'main':
+..\ex7.c:17:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   17 |         scanf("%d",num_1);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:20:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   20 |         scanf("%d",num_2);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:17:9: warning: 'num_1' is used uninitialized [-Wuninitialized]
+   17 |         scanf("%d",num_1);
+      |         ^~~~~~~~~~~~~~~~~
+..\ex7.c:20:9: warning: 'num_2' is used uninitialized [-Wuninitialized]
+   20 |         scanf("%d",num_2);
+      |         ^~~~~~~~~~~~~~~~~
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:38:33 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+..\ex7.c: In function 'main':
+..\ex7.c:17:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   17 |         scanf("%d",num_1);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:20:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   20 |         scanf("%d",num_2);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:17:9: warning: 'num_1' is used uninitialized [-Wuninitialized]
+   17 |         scanf("%d",num_1);
+      |         ^~~~~~~~~~~~~~~~~
+..\ex7.c:20:9: warning: 'num_2' is used uninitialized [-Wuninitialized]
+   20 |         scanf("%d",num_2);
+      |         ^~~~~~~~~~~~~~~~~
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:39:12 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+..\ex7.c: In function 'main':
+..\ex7.c:17:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   17 |         scanf("%d",num_1);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:20:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   20 |         scanf("%d",num_2);
+      |                ~^  ~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex7.c:17:9: warning: 'num_1' is used uninitialized [-Wuninitialized]
+   17 |         scanf("%d",num_1);
+      |         ^~~~~~~~~~~~~~~~~
+..\ex7.c:20:9: warning: 'num_2' is used uninitialized [-Wuninitialized]
+   20 |         scanf("%d",num_2);
+      |         ^~~~~~~~~~~~~~~~~
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+Info: Nothing to build for EX7
+Info: Nothing to build for EX7
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:39:41 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX7
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:40:03 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX7
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:46:12 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX7
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+18:46:34 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX7
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+Info: Nothing to build for EX5
+Info: Nothing to build for EX6
+Info: Nothing to build for EX7

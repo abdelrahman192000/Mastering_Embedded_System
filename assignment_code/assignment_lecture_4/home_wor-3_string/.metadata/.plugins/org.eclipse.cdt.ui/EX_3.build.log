@@ -1,0 +1,20 @@
+07:30:11 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:15: warning: unused variable 'j' [-Wunused-variable]
+   13 |         int i,j;
+      |               ^
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i,j;
+      |             ^
+..\ex3.c:12:39: warning: unused variable 'temp' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                                       ^~~~
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+
+07:30:11 Build Finished. 0 errors, 4 warnings. (took 213ms)
+

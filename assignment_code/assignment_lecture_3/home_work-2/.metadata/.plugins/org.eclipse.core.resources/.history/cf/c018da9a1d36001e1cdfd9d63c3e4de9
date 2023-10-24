@@ -1,0 +1,30 @@
+/*
+ * ex7.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	int factorial,number;
+	printf("Enter an integer:");
+	fflush(stdout);
+	scanf("%d",&number);
+
+	if (number>0)
+	{
+
+	}
+	else if (number==0)
+	{
+		printf("factorial = 1");
+
+	}
+	else
+		printf("Error!! Factorial of negative number doesn't exist. ");
+
+}

@@ -1,0 +1,1208 @@
+11:33:37 **** Rebuild of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex.o "..\\ex.c" 
+gcc -o EX_1.exe ex.o 
+05:20:16 **** Rebuild of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+05:20:58 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:25: warning: unused variable 'arr_2' [-Wunused-variable]
+   12 |         int arr_1[2][2],arr_2[2][2];
+      |                         ^~~~~
+..\ex1.c:12:13: warning: unused variable 'arr_1' [-Wunused-variable]
+   12 |         int arr_1[2][2],arr_2[2][2];
+      |             ^~~~~
+gcc -o EX_1.exe ex1.o 
+05:23:45 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:25: warning: unused variable 'arr_2' [-Wunused-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],i,j;
+      |                         ^~~~~
+gcc -o EX_1.exe ex1.o 
+05:24:10 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:25: warning: unused variable 'arr_2' [-Wunused-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],i,j;
+      |                         ^~~~~
+gcc -o EX_1.exe ex1.o 
+05:24:42 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:25: warning: unused variable 'arr_2' [-Wunused-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],i,j;
+      |                         ^~~~~
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+05:25:17 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:30:37: error: 'arr21' undeclared (first use in this function); did you mean 'arr_1'?
+   30 |                         scanf("%d",&arr21[i][j]);
+      |                                     ^~~~~
+      |                                     arr_1
+..\ex1.c:30:37: note: each undeclared identifier is reported only once for each function it appears in
+..\ex1.c:12:25: warning: unused variable 'arr_2' [-Wunused-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],i,j;
+      |                         ^~~~~
+05:25:22 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+05:26:31 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:37: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                                     ^~~
+gcc -o EX_1.exe ex1.o 
+05:27:04 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:48:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   48 |                                 printf(("%d",&arr_2[i][j]);
+      |                                             ^
+..\ex1.c:48:59: error: expected ')' before ';' token
+   48 |                                 printf(("%d",&arr_2[i][j]);
+      |                                       ~                   ^
+      |                                                           )
+..\ex1.c:48:45: warning: passing argument 1 of 'printf' from incompatible pointer type [-Wincompatible-pointer-types]
+   48 |                                 printf(("%d",&arr_2[i][j]);
+      |                                        ~~~~~^~~~~~~~~~~~~~
+      |                                             |
+      |                                             int *
+In file included from ..\ex1.c:8:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:368:25: note: expected 'const char *' but argument is of type 'int *'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+..\ex1.c:48:60: error: expected ';' before '}' token
+   48 |                                 printf(("%d",&arr_2[i][j]);
+      |                                                            ^
+      |                                                            ;
+   49 | 
+   50 |                         }
+      |                         ~                                   
+..\ex1.c:12:37: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                                     ^~~
+05:27:09 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:48:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   48 |                                 printf(("%d",arr_2[i][j]);
+      |                                             ^
+..\ex1.c:48:58: error: expected ')' before ';' token
+   48 |                                 printf(("%d",arr_2[i][j]);
+      |                                       ~                  ^
+      |                                                          )
+..\ex1.c:48:45: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   48 |                                 printf(("%d",arr_2[i][j]);
+      |                                        ~~~~~^~~~~~~~~~~~~
+      |                                             |
+      |                                             int
+In file included from ..\ex1.c:8:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:368:25: note: expected 'const char *' but argument is of type 'int'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+..\ex1.c:48:59: error: expected ';' before '}' token
+   48 |                                 printf(("%d",arr_2[i][j]);
+      |                                                           ^
+      |                                                           ;
+   49 | 
+   50 |                         }
+      |                         ~                                  
+..\ex1.c:12:37: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+   12 |         int arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                                     ^~~
+05:27:26 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+05:27:43 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:20:42: error: array subscript is not an integer
+   20 |                         scanf("%d",&arr_1[i][j]);
+      |                                          ^
+..\ex1.c:30:42: error: array subscript is not an integer
+   30 |                         scanf("%d",&arr_2[i][j]);
+      |                                          ^
+..\ex1.c:39:36: error: array subscript is not an integer
+   39 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                    ^
+..\ex1.c:39:48: error: array subscript is not an integer
+   39 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                                ^
+..\ex1.c:39:61: error: array subscript is not an integer
+   39 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                                             ^
+..\ex1.c:48:48: error: array subscript is not an integer
+   48 |                                 printf("%d",sum[i][j]);
+      |                                                ^
+..\ex1.c:12:39: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                                       ^~~
+..\ex1.c:12:27: warning: variable 'arr_2' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                           ^~~~~
+..\ex1.c:12:15: warning: variable 'arr_1' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |               ^~~~~
+05:27:51 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:20:42: error: array subscript is not an integer
+   20 |                         scanf("%f",&arr_1[i][j]);
+      |                                          ^
+..\ex1.c:30:42: error: array subscript is not an integer
+   30 |                         scanf("%f",&arr_2[i][j]);
+      |                                          ^
+..\ex1.c:39:36: error: array subscript is not an integer
+   39 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                    ^
+..\ex1.c:39:48: error: array subscript is not an integer
+   39 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                                ^
+..\ex1.c:39:61: error: array subscript is not an integer
+   39 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                                             ^
+..\ex1.c:48:48: error: array subscript is not an integer
+   48 |                                 printf("%f",sum[i][j]);
+      |                                                ^
+..\ex1.c:12:39: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                                       ^~~
+..\ex1.c:12:27: warning: variable 'arr_2' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |                           ^~~~~
+..\ex1.c:12:15: warning: variable 'arr_1' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2],i,j;
+      |               ^~~~~
+05:28:08 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:13:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+   13 |         int i,j;
+      |         ^~~
+..\ex1.c:17:14: error: 'i' undeclared (first use in this function)
+   17 |         for (i=0;i<2;i++)
+      |              ^
+..\ex1.c:17:14: note: each undeclared identifier is reported only once for each function it appears in
+..\ex1.c:19:22: error: 'j' undeclared (first use in this function)
+   19 |                 for (j=0;j<2;j++)
+      |                      ^
+..\ex1.c:40:33: error: 'sum' undeclared (first use in this function)
+   40 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                 ^~~
+..\ex1.c:12:27: warning: variable 'arr_2' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2]
+      |                           ^~~~~
+..\ex1.c:12:15: warning: variable 'arr_1' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2]
+      |               ^~~~~
+05:28:10 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:13:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+   13 |         int i,j;
+      |         ^~~
+..\ex1.c:17:14: error: 'i' undeclared (first use in this function)
+   17 |         for (i=0;i<2;i++)
+      |              ^
+..\ex1.c:17:14: note: each undeclared identifier is reported only once for each function it appears in
+..\ex1.c:19:22: error: 'j' undeclared (first use in this function)
+   19 |                 for (j=0;j<2;j++)
+      |                      ^
+..\ex1.c:40:33: error: 'sum' undeclared (first use in this function)
+   40 |                                 sum[i][j]=arr_1[i][j] +arr_2[i][j];
+      |                                 ^~~
+..\ex1.c:12:27: warning: variable 'arr_2' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2]
+      |                           ^~~~~
+..\ex1.c:12:15: warning: variable 'arr_1' set but not used [-Wunused-but-set-variable]
+   12 |         float arr_1[2][2],arr_2[2][2],sum[2][2]
+      |               ^~~~~
+05:28:25 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+05:28:28 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+05:29:16 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+05:29:30 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+05:35:26 **** Rebuild of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:14: error: expected '{' at end of input
+Info: Nothing to build for EX_1
+05:35:29 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:35:32 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:37:05 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'
+   12 |         scanf("%d",&number);
+      |         ^~~~~
+..\ex2.c:12:21: error: 'number' undeclared (first use in this function)
+   12 |         scanf("%d",&number);
+      |                     ^~~~~~
+..\ex2.c:12:21: note: each undeclared identifier is reported only once for each function it appears in
+..\ex2.c:15:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+   15 | }
+      | ^
+Info: Nothing to build for EX_1
+05:37:09 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'
+   12 |         scanf("%d",&number);
+      |         ^~~~~
+..\ex2.c:12:21: error: 'number' undeclared (first use in this function)
+   12 |         scanf("%d",&number);
+      |                     ^~~~~~
+..\ex2.c:12:21: note: each undeclared identifier is reported only once for each function it appears in
+..\ex2.c:13:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+   13 |         float numbers_arr[number];
+      |               ^~~~~~~~~~~
+Info: Nothing to build for EX_1
+05:37:11 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scanf'
+   12 |         scanf("%d",&number);
+      |         ^~~~~
+..\ex2.c:12:21: error: 'number' undeclared (first use in this function)
+   12 |         scanf("%d",&number);
+      |                     ^~~~~~
+..\ex2.c:12:21: note: each undeclared identifier is reported only once for each function it appears in
+..\ex2.c:13:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+   13 |         float numbers_arr[number];
+      |               ^~~~~~~~~~~
+Info: Nothing to build for EX_1
+05:37:16 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:13:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+   13 |         float numbers_arr[number];
+      |               ^~~~~~~~~~~
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:37:54 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:13:15: error: array size missing in 'numbers_arr'
+   13 |         float numbers_arr[];
+      |               ^~~~~~~~~~~
+..\ex2.c:13:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+..\ex2.c:11:13: warning: unused variable 'number' [-Wunused-variable]
+   11 |         int number;
+      |             ^~~~~~
+Info: Nothing to build for EX_1
+05:37:59 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:15: error: array size missing in 'numbers_arr'
+   12 |         float numbers_arr[];
+      |               ^~~~~~~~~~~
+..\ex2.c:12:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+..\ex2.c:11:13: warning: unused variable 'number' [-Wunused-variable]
+   11 |         int number;
+      |             ^~~~~~
+Info: Nothing to build for EX_1
+05:38:07 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+   12 |         float numbers_arr[30];
+      |               ^~~~~~~~~~~
+..\ex2.c:11:13: warning: unused variable 'number' [-Wunused-variable]
+   11 |         int number;
+      |             ^~~~~~
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:38:51 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+   12 |         float numbers_arr[30];
+      |               ^~~~~~~~~~~
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:39:19 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:15: warning: unused variable 'numbers_arr' [-Wunused-variable]
+   12 |         float numbers_arr[30];
+      |               ^~~~~~~~~~~
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:40:22 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:21:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   21 |                 scanf("%d",&numbers_arr[i]);
+      |                        ~^  ~~~~~~~~~~~~~~~
+      |                         |  |
+      |                         |  float *
+      |                         int *
+      |                        %e
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:40:30 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:40:36 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:40:47 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:31: warning: unused variable 'average' [-Wunused-variable]
+   12 |         float numbers_arr[30],average;
+      |                               ^~~~~~~
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:42:16 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:31: warning: variable 'average' set but not used [-Wunused-but-set-variable]
+   12 |         float numbers_arr[30],average,sum;
+      |                               ^~~~~~~
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:43:07 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:27:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   27 |         printf("Average = %d",average);
+      |                           ~^  ~~~~~~~
+      |                            |  |
+      |                            |  double
+      |                            int
+      |                           %f
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:43:13 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:27:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   27 |         printf("Average = %d",average);
+      |                           ~^  ~~~~~~~
+      |                            |  |
+      |                            |  double
+      |                            int
+      |                           %f
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+05:43:28 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:43:50 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+05:43:53 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -o EX2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+05:43:55 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX2
+05:44:26 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+05:44:30 **** Incremental Build of configuration Debug for project EX2 ****
+Info: Internal Builder is used for build
+gcc -o EX2.exe ex2.o 
+Info: Nothing to build for EX2
+Info: Nothing to build for EX2
+05:47:35 **** Rebuild of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:53:09 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums;
+      |             ^~~
+..\ex3.c:14:9: warning: 'rows' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:14:9: warning: 'colums' is used uninitialized [-Wuninitialized]
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:53:27 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums;
+      |             ^~~
+..\ex3.c:14:9: warning: 'rows' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:14:9: warning: 'colums' is used uninitialized [-Wuninitialized]
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:53:56 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums;
+      |             ^~~
+..\ex3.c:14:9: warning: 'colums' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:12:26: note: 'colums' declared here
+   12 |         int arr[20],rows,colums;
+      |                          ^~~~~~
+..\ex3.c:14:9: warning: 'rows' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:12:21: note: 'rows' declared here
+   12 |         int arr[20],rows,colums;
+      |                     ^~~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:54:34 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums;
+      |             ^~~
+..\ex3.c:14:9: warning: 'colums' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:12:26: note: 'colums' declared here
+   12 |         int arr[20],rows,colums;
+      |                          ^~~~~~
+..\ex3.c:14:9: warning: 'rows' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:12:21: note: 'rows' declared here
+   12 |         int arr[20],rows,colums;
+      |                     ^~~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:54:57 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums;
+      |             ^~~
+..\ex3.c:14:9: warning: 'colums' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:12:26: note: 'colums' declared here
+   12 |         int arr[20],rows,colums;
+      |                          ^~~~~~
+..\ex3.c:14:9: warning: 'rows' is used uninitialized [-Wuninitialized]
+   14 |         printf("Enter rows and colums of matrix: %d %d",rows,colums);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\ex3.c:12:21: note: 'rows' declared here
+   12 |         int arr[20],rows,colums;
+      |                     ^~~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:55:36 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums;
+      |             ^~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:56:42 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:18:14: error: expected expression before ')' token
+   18 |         for ()
+      |              ^
+..\ex3.c:18:14: error: expected expression before ')' token
+..\ex3.c:22:1: error: expected expression before '}' token
+   22 | }
+      | ^
+..\ex3.c:12:44: warning: unused variable 'colums_index' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |                                            ^~~~~~~~~~~~
+..\ex3.c:12:33: warning: unused variable 'rows_index' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |                                 ^~~~~~~~~~
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |             ^~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:56:59 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:44: warning: unused variable 'colums_index' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |                                            ^~~~~~~~~~~~
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |             ^~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:57:31 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |             ^~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:57:47 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[20],rows,colums,rows_index,colums_index;
+      |             ^~~
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:58:53 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+05:59:57 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:22:36: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   22 |                         printf(" a%d%d : ");
+      |                                   ~^
+      |                                    |
+      |                                    int
+..\ex3.c:22:38: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   22 |                         printf(" a%d%d : ");
+      |                                     ~^
+      |                                      |
+      |                                      int
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:00:21 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+06:00:39 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:00:43 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+06:00:59 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:01:03 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX3
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+06:02:28 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:04:30 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+06:04:56 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:05:04 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:05:06 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+06:05:27 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:05:36 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+06:06:37 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:07:16 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:07:18 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+06:07:55 **** Incremental Build of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX3
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:10:09 **** Rebuild of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:12:15 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:12:25: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |                         ^~~
+..\ex4.c:12:13: warning: unused variable 'max_number' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |             ^~~~~~~~~~
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:13:09 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:12:25: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |                         ^~~
+..\ex4.c:13:9: warning: 'max_number' is used uninitialized [-Wuninitialized]
+   13 |         printf("Enter no of elements : %d",max_number);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:13:25 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:12:25: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |                         ^~~
+..\ex4.c:12:13: warning: unused variable 'max_number' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |             ^~~~~~~~~~
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:14:12 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:15:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   15 |         scanf("%d",max_number);
+      |                ~^  ~~~~~~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex4.c:12:25: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |                         ^~~
+..\ex4.c:15:9: warning: 'max_number' is used uninitialized [-Wuninitialized]
+   15 |         scanf("%d",max_number);
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:14:21 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:12:25: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int max_number ,arr ;
+      |                         ^~~
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:15:54 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:16:06 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:19:30: warning: unknown escape sequence: '\l'
+   19 |                 scanf("%d \l",&arr[i]);
+      |                              ^
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:16:14 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:16:36 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:17:51 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+..\ex4.c: In function 'main':
+..\ex4.c:12:25: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int max_number ,arr[30] ,i;
+      |                         ^~~
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:18:20 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:19:55 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:20:04 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:20:06 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:20:45 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:20:56 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:21:17 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:22:05 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:22:27 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:22:30 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:22:49 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:22:55 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:23:12 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:23:14 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:23:23 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:23:25 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:23:45 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:23:47 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+06:24:26 **** Incremental Build of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX4
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:25:48 **** Rebuild of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'mian':
+..\ex5.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+gcc -o EX5.exe ex5.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:25:52 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:40:09 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:16:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   16 |         scanf("%d",number );
+      |                ~^  ~~~~~~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\ex5.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[5],number;
+      |             ^~~
+..\ex5.c:16:9: warning: 'number' is used uninitialized [-Wuninitialized]
+   16 |         scanf("%d",number );
+      |         ^~~~~~~~~~~~~~~~~~~
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:40:24 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[5],number;
+      |             ^~~
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:41:32 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[5],number,i;
+      |             ^~~
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:41:41 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+..\ex5.c: In function 'main':
+..\ex5.c:12:13: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         int arr[5],number,i;
+      |             ^~~
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:42:00 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX5
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:42:59 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX5
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:43:17 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:44:46 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:46:06 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:46:13 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:46:24 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:47:40 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX5
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:47:54 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+06:47:57 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX5
+Info: Nothing to build for EX2
+Info: Nothing to build for EX3
+Info: Nothing to build for EX4
+06:48:11 **** Incremental Build of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX5

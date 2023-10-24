@@ -1,0 +1,31 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Aug 14, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+int main (void)
+{
+	int number,i;
+	float numbers_arr[30],average,sum;
+	printf("Enter the numbers of data: ");
+	fflush(stdout);
+	scanf("%d",&number);
+
+	for (i=0;i<number;i++)
+	{
+		printf("Enter number: ");
+		fflush(stdout);
+		scanf("%f",&numbers_arr[i]);
+		sum+=numbers_arr[i];
+
+	}
+
+	average = sum/ number ;
+
+}
+
+
+

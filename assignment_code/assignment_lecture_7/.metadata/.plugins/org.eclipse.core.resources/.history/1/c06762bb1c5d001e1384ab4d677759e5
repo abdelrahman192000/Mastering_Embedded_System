@@ -1,0 +1,53 @@
+/*
+ * ex_1.c
+ *
+ *  Created on: Sep 14, 2023
+ *      Author: usedn
+ */
+
+#include <stdio.h>
+#include <math.h>
+
+
+int main (void)
+{
+	int n=0,count=0,i=1,div=1,first_n,second_n,q=100;
+
+	while(n<q)
+	{
+
+			int number=n*n;
+			while (number!=0)
+			{
+				//printf("\n   %d\n",number);
+				number/=10;
+
+				count++;
+			}
+
+			while(i<=(count/2))
+			{
+
+				div*=10;
+				//printf("%d\n",div);
+				i++;
+			}
+
+			first_n=(n*n)%div;
+			second_n=(n*n)/div;
+
+			printf("first = %d\n",first_n);
+			printf("second = %d\n",second_n);
+
+			if((first_n+second_n)<=n)
+			{
+				printf("ok\n");
+
+			}
+			n++;
+	}
+
+
+}
+
+

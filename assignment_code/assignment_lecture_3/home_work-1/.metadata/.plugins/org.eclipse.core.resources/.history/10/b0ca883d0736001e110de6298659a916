@@ -1,0 +1,17 @@
+/*
+ * ex6.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: usedn
+ */
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	float number_a,number_b,temp;
+	printf("Enter value of a")
+
+
+}

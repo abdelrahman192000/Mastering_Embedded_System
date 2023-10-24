@@ -1,0 +1,45 @@
+/*
+ * ex_2.c
+ *
+ *  Created on: Aug 22, 2023
+
+  Author: Abdelrahman Adel MahmoudAuthor: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+
+void factorial_fun (int );
+
+int main (void)
+{
+	int number ;
+	printf("Enter an positive integer : ");
+	fflush(stdout);
+	scanf("%d",&number);
+
+
+
+}
+
+void factorial_fun (int number )
+{
+	if(number !=0 && number>0)
+		{
+			factorial_fun(number);
+
+		}
+
+	int i,result=1;
+	for (i=number;i!=0;i--)
+	{
+		result *= i;
+
+
+	}
+	printf("\n%d",result);
+
+
+
+}
+
+

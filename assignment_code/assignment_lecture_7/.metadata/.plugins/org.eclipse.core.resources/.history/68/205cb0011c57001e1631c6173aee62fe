@@ -1,0 +1,23 @@
+/*
+ * ex_1.c
+ *
+ *  Created on: Sep 14, 2023
+ *      Author: usedn
+ */
+
+#include <stdio.h>
+
+typedef enum {
+
+}days;
+int main (void)
+{
+	int x;
+
+
+
+
+
+}
+
+

@@ -1,0 +1,619 @@
+06:56:07 **** Rebuild of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+06:59:50 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:22: warning: unused variable 'freq_char' [-Wunused-variable]
+   12 |         char arr[30],freq_char;
+      |                      ^~~~~~~~~
+..\ex1.c:12:14: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         char arr[30],freq_char;
+      |              ^~~
+gcc -o EX_1.exe ex1.o 
+07:00:33 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:22: warning: unused variable 'freq_char' [-Wunused-variable]
+   12 |         char arr[30],freq_char;
+      |                      ^~~~~~~~~
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+07:01:19 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:17:21: warning: multi-character character constant [-Wmultichar]
+   17 |         for (i=0;i!='/0';i++)
+      |                     ^~~~
+..\ex1.c:12:22: warning: unused variable 'freq_char' [-Wunused-variable]
+   12 |         char arr[30],freq_char,i;
+      |                      ^~~~~~~~~
+gcc -o EX_1.exe ex1.o 
+07:01:26 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:17:21: warning: array subscript has type 'char' [-Wchar-subscripts]
+   17 |         for (i=0;arr[i]!='/0';i++)
+      |                     ^
+..\ex1.c:17:26: warning: multi-character character constant [-Wmultichar]
+   17 |         for (i=0;arr[i]!='/0';i++)
+      |                          ^~~~
+..\ex1.c:12:22: warning: unused variable 'freq_char' [-Wunused-variable]
+   12 |         char arr[30],freq_char,i;
+      |                      ^~~~~~~~~
+gcc -o EX_1.exe ex1.o 
+07:01:34 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:17:21: warning: array subscript has type 'char' [-Wchar-subscripts]
+   17 |         for (i=0;arr[i]!='\0';i++)
+      |                     ^
+..\ex1.c:12:22: warning: unused variable 'freq_char' [-Wunused-variable]
+   12 |         char arr[30],freq_char,i;
+      |                      ^~~~~~~~~
+gcc -o EX_1.exe ex1.o 
+07:01:57 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:12:22: warning: unused variable 'freq_char' [-Wunused-variable]
+   12 |         char arr[30],freq_char;
+      |                      ^~~~~~~~~
+gcc -o EX_1.exe ex1.o 
+07:03:00 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:19:17: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   19 |         scanf("%c",freq_char);
+      |                ~^  ~~~~~~~~~
+      |                 |  |
+      |                 |  int
+      |                 char *
+..\ex1.c:19:9: warning: 'freq_char' is used uninitialized [-Wuninitialized]
+   19 |         scanf("%c",freq_char);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+gcc -o EX_1.exe ex1.o 
+07:03:05 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+07:03:23 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+07:03:25 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+07:03:28 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+07:03:44 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+07:03:47 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+07:04:45 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+07:05:23 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+07:06:08 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+07:06:34 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+07:06:36 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+07:07:21 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+..\ex1.c: In function 'main':
+..\ex1.c:16:9: warning: implicit declaration of function 'get'; did you mean 'getw'? [-Wimplicit-function-declaration]
+   16 |         get (arr);
+      |         ^~~
+      |         getw
+gcc -o EX_1.exe ex1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ex1.o: in function `main':
+F:\embedded\Mastering_Embedded_System\assignment\assignment_code\assignment_lecture_4\home_wor-3_string\EX_1\Debug/../ex1.c:16: undefined reference to `get'
+collect2.exe: error: ld returned 1 exit status
+07:07:23 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex1.o "..\\ex1.c" 
+gcc -o EX_1.exe ex1.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+07:09:53 **** Rebuild of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+07:11:46 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:12:22: warning: unused variable 'i' [-Wunused-variable]
+   12 |         char arr[30],i;
+      |                      ^
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_1
+07:12:15 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_1
+07:13:11 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+07:13:24 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX_2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:13:26 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+07:13:59 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:18:21: warning: multi-character character constant [-Wmultichar]
+   18 |         for (i=0;i!='/0';i++);
+      |                     ^~~~
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_1
+07:14:02 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_1
+07:14:07 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+..\ex2.c: In function 'main':
+..\ex2.c:18:21: warning: array subscript has type 'char' [-Wchar-subscripts]
+   18 |         for (i=0;arr[i]!='\0';i++);
+      |                     ^
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_1
+07:14:19 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+07:14:38 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex2.o "..\\ex2.c" 
+gcc -o EX_2.exe ex2.o 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:16:38 **** Rebuild of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:17:40 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i;
+      |             ^
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+..\ex3.c:12:14: warning: unused variable 'arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |              ^~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:18:32 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i;
+      |             ^
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:19:01 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:19:20: warning: multi-character character constant [-Wmultichar]
+   19 |         for(i=0;i!='/0';i++);
+      |                    ^~~~
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:19:07 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:20:32 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:22: warning: variable 'reverced_arr' set but not used [-Wunused-but-set-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:20:37 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:22: warning: variable 'reverced_arr' set but not used [-Wunused-but-set-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:20:59 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:21:07 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:21:37 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:22:50 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:23:20: error: expected ';' before '}' token
+   23 |                 v++
+      |                    ^
+      |                    ;
+   24 |         }
+      |         ~           
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:22:51 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:23:20: error: expected ';' before '}' token
+   23 |                 v++
+      |                    ^
+      |                    ;
+   24 |         }
+      |         ~           
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:22:54 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:23:31 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:23:45 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:17: warning: variable 'num_of_char' set but not used [-Wunused-but-set-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:24:48 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:17: warning: variable 'num_of_char' set but not used [-Wunused-but-set-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:25:32 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:17: warning: variable 'num_of_char' set but not used [-Wunused-but-set-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:26:19 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:21:14: error: expected expression before ')' token
+   21 |         for ()
+      |              ^
+..\ex3.c:21:14: error: expected expression before ')' token
+..\ex3.c:26:1: error: expected expression before '}' token
+   26 | }
+      | ^
+..\ex3.c:13:17: warning: variable 'num_of_char' set but not used [-Wunused-but-set-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+..\ex3.c:13:15: warning: unused variable 'x' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |               ^
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:26:23 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:17: warning: variable 'num_of_char' set but not used [-Wunused-but-set-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+..\ex3.c:13:15: warning: unused variable 'x' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |               ^
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:27:06 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:25:9: error: expected expression before '}' token
+   25 |         }
+      |         ^
+..\ex3.c:13:15: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   13 |         int i,x,num_of_char;
+      |               ^
+..\ex3.c:12:22: warning: variable 'reverced_arr' set but not used [-Wunused-but-set-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:27:14 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:22: warning: variable 'reverced_arr' set but not used [-Wunused-but-set-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:27:20 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:12:22: warning: variable 'reverced_arr' set but not used [-Wunused-but-set-variable]
+   12 |         char arr[10],reverced_arr[10];
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:27:35 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:28:35 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:29:18: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |         printf("%c",reverced_arr);
+      |                 ~^  ~~~~~~~~~~~~
+      |                  |  |
+      |                  |  char *
+      |                  int
+      |                 %s
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:28:39 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:29:37 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:17: warning: unused variable 'num_of_char' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+..\ex3.c:13:15: warning: unused variable 'x' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |               ^
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |             ^
+..\ex3.c:12:39: warning: unused variable 'temp' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                                       ^~~~
+..\ex3.c:21:33: warning: 'reverced_arr' is used uninitialized [-Wuninitialized]
+   21 |         printf("%c",reverced_arr[0]);
+      |                     ~~~~~~~~~~~~^~~
+..\ex3.c:12:22: note: 'reverced_arr' declared here
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:29:40 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:17: warning: unused variable 'num_of_char' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |                 ^~~~~~~~~~~
+..\ex3.c:13:15: warning: unused variable 'x' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |               ^
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i,x,num_of_char;
+      |             ^
+..\ex3.c:12:39: warning: unused variable 'temp' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                                       ^~~~
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:29:51 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:15: warning: unused variable 'j' [-Wunused-variable]
+   13 |         int i,j;
+      |               ^
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i,j;
+      |             ^
+..\ex3.c:12:39: warning: unused variable 'temp' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                                       ^~~~
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:30:05 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:17:9: error: too many arguments to function 'gets'
+   17 |         gets("%s",arr);
+      |         ^~~~
+In file included from ..\ex3.c:8:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:687:17: note: declared here
+  687 |   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+      |                 ^~~~
+..\ex3.c:13:15: warning: unused variable 'j' [-Wunused-variable]
+   13 |         int i,j;
+      |               ^
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i,j;
+      |             ^
+..\ex3.c:12:39: warning: unused variable 'temp' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                                       ^~~~
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                      ^~~~~~~~~~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+07:30:11 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+..\ex3.c: In function 'main':
+..\ex3.c:13:15: warning: unused variable 'j' [-Wunused-variable]
+   13 |         int i,j;
+      |               ^
+..\ex3.c:13:13: warning: unused variable 'i' [-Wunused-variable]
+   13 |         int i,j;
+      |             ^
+..\ex3.c:12:39: warning: unused variable 'temp' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                                       ^~~~
+..\ex3.c:12:22: warning: unused variable 'reverced_arr' [-Wunused-variable]
+   12 |         char arr[10],reverced_arr[10],temp;
+      |                      ^~~~~~~~~~~~
+gcc -o EX_3.exe ex3.o 

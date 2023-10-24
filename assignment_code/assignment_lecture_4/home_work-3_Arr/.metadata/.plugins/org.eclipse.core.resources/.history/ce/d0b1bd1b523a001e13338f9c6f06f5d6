@@ -1,0 +1,33 @@
+/*
+ * ex1.c
+ *
+ *  Created on: Aug 13, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	int arr_1[2][2],arr_2[2][2],i,j;
+
+	printf("Enter the elements of 1st matrix \n");
+	fflush(stdout);
+	for (i=0;i<2;i++)
+	{
+		for (j=0;j<2;j++)
+		{
+			scanf("%d",&arr_1[i][j]);
+
+		}
+	}
+
+
+
+
+
+
+
+}
+
+

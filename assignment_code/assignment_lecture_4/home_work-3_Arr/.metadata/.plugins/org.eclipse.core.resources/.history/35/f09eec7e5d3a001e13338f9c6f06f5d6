@@ -1,0 +1,51 @@
+/*
+ * ex5.c
+ *
+ *  Created on: Aug 14, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	int arr[10],number,i,serch_num;
+
+	printf("Enter no of elements : ");
+	fflush(stdout);
+	scanf("%d",&number);
+
+	for (i=0;i<number;i++)
+	{
+		printf("%d ",arr[i]=(i+1)*11);
+		fflush(stdout);
+
+	}
+
+	printf("Enter the elements to be searched : ");
+	fflush(stdout);
+	scanf("%d",&serch_num);
+
+	for (i=0;i<number;i++)
+	{
+		if (arr[i]==serch_num);
+		break;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

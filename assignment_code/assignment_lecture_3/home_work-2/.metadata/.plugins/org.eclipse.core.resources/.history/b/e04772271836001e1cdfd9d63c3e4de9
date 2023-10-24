@@ -1,0 +1,19 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: usedn
+ */
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	char character ;
+	printf("Enter an alphabet:");
+	fflush(stdout);
+	scanf("%d",&character);
+
+
+}

@@ -1,0 +1,28 @@
+/*
+ * ex3.c
+ *
+ *  Created on: Aug 14, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	char arr[10],reverced_arr[10];
+	int i,x,num_of_char;
+
+	printf("Enter the string :");
+	fflush(stdout);
+	scanf("%s",arr);
+
+	for(i=0;arr[i]!='\0';i++);
+	num_of_char=i;
+	for ()
+
+
+
+
+}
+
+

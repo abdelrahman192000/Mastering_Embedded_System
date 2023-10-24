@@ -1,0 +1,35 @@
+/*
+ * ex_1.c
+ *
+ *  Created on: Sep 14, 2023
+ *      Author: usedn
+ */
+
+#include <stdio.h>
+
+typedef enum {
+
+	sunday="sunday" ,
+
+
+}days;
+
+int main (void)
+{
+	int i=0;
+	char arr[7][20];
+
+
+	for (i;i<7;i++)
+	{
+		printf("%s",arr[][i]);
+	}
+
+
+
+
+
+
+}
+
+

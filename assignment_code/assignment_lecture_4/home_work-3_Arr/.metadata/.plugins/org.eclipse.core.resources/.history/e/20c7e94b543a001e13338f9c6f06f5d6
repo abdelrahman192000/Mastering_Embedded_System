@@ -1,0 +1,20 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Aug 14, 2023
+ *      Author: Abdelrahman Adel Mahmoud
+ */
+
+#include <stdio.h>
+int main (void)
+{
+	int number;
+	float numbers_arr[30];
+	printf("Enter the numbers of data: ");
+	fflush(stdout);
+	scanf("%d",&number);
+
+}
+
+
+

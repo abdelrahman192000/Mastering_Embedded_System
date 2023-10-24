@@ -1,0 +1,16 @@
+/*
+ * ex5.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: usedn
+ */
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	char character;
+	printf("Enter a character:");
+
+}

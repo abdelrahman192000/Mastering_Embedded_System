@@ -1,0 +1,22 @@
+/*
+ * ex7.c
+ *
+ *  Created on: Aug 8, 2023
+ *      Author: usedn
+ */
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	int num_1,num_2;
+
+	printf("enter first number:");
+	fflush(stdout);
+	scanf("%d",num_1);
+	printf("enter second number:");
+	fflush(stdout);
+	scanf("%d",num_2);
+
+}

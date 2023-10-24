@@ -1,0 +1,36 @@
+/*
+ * ex_1.c
+ *
+ *  Created on: Sep 14, 2023
+ *      Author: usedn
+ */
+
+#include <stdio.h>
+
+
+
+int main (void)
+{
+	int i,x;
+	char  days [7][3] = { {"sun"}, {"mon"}, {"tus"},{"wen"},{"thr"},{"fri"},{"sat"}};
+
+
+	for (i=0;i<9;i++)
+	{
+		for (x=0;x<3;x++)
+		{
+			printf("%c ",days [i][x]);
+
+		}
+		printf("\n");
+
+	}
+
+
+
+
+
+
+}
+
+
